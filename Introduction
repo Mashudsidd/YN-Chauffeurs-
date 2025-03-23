@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="YN Cheaffurs Luxury Travel - Luxury travel for weddings, corporate events, funerals, and proms in Greater Manchester.">
+    <title>YN Cheaffurs Luxury Travel</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <!-- Navbar -->
+    <header>
+        <nav>
+            <ul>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">About Us</a></li>
+                <li><a href="#services">Services</a></li>
+                <li><a href="#gallery">Gallery</a></li>
+                <li><a href="#testimonials">Testimonials</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- Home Section -->
+    <section id="home">
+        <div class="container">
+            <h1>YN Cheaffurs Luxury Travel</h1>
+            <p>Luxury Travel for Weddings, Corporate Events, Funerals, and Proms in Greater Manchester</p>
+            <a href="#contact" class="cta-button">Get a Quote</a>
+        </div>
+    </section>
+
+    <!-- About Us Section -->
+    <section id="about">
+        <div class="container">
+            <h2>About Us</h2>
+            <p>YN Cheaffurs Luxury Travel provides the highest quality transportation services for all occasions. Whether it's a wedding, corporate event, funeral, or prom, we specialize in offering luxury vehicles and a memorable experience for our clients.</p>
+        </div>
+    </section>
+
+    <!-- Services Section -->
+    <section id="services">
+        <div class="container">
+            <h2>Our Services</h2>
+            <div class="service">
+                <h3>Weddings</h3>
+                <p>Luxury wedding transportation with personalized service to make your day unforgettable.</p>
+            </div>
+            <div class="service">
+                <h3>Corporate Events</h3>
+                <p>Professional travel for business events, conferences, and corporate occasions.</p>
+            </div>
+            <div class="service">
+                <h3>Funerals</h3>
+                <p>Respectful, comforting, and reliable transportation for funeral services.</p>
+            </div>
+            <div class="service">
+                <h3>Proms</h3>
+                <p>Arrive in style with our luxurious vehicles for the most important night of the year.</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Gallery Section -->
+    <section id="gallery">
+        <div class="container">
+            <h2>Gallery</h2>
+            <div class="gallery-images">
+                <img src="image1.jpg" alt="Wedding car">
+                <img src="image2.jpg" alt="Corporate event car">
+                <img src="image3.jpg" alt="Prom car">
+                <img src="image4.jpg" alt="Funeral car">
+            </div>
+        </div>
+    </section>
+
+    <!-- Testimonials Section -->
+    <section id="testimonials">
+        <div class="container">
+            <h2>What Our Clients Say</h2>
+            <p>"YN Cheaffurs made our wedding day truly special with their impeccable service and beautiful vehicles." - Sarah & John</p>
+            <p>"Fantastic service for our corporate event. Professional and luxurious!" - Mark H.</p>
+            <p>"Very respectful and comforting service during a difficult time. Highly recommend." - Peter M.</p>
+        </div>
+    </section>
+
+    <!-- Contact Us Section -->
+    <section id="contact">
+        <div class="container">
+            <h2>Contact Us</h2>
+            <form>
+                <label for="name">Full Name</label>
+                <input type="text" id="name" name="name" required>
+                
+                <label for="email">Email Address</label>
+                <input type="email" id="email" name="email" required>
+                
+                <label for="message">Message</label>
+                <textarea id="message" name="message" rows="4" required></textarea>
+                
+                <button type="submit">Submit</button>
+            </form>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <p>&copy; 2025 YN Cheaffurs Luxury Travel. All rights reserved.</p>
+    </footer>
+</body>
+</html>
